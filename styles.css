@@ -1,0 +1,42 @@
+.button {
+  width: 10rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  padding: 0.25rem;
+  margin: 1rem;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0.3rem);
+}
+
+.blue {
+  border-color: hsl(189, 91%, 52%, 1);
+  background-color: hsl(189, 91%, 52%, 1);
+  box-shadow: 0 0.3rem 0 hsl(199, 92%, 54%, 1);
+}
+
+.red {
+  border-color: hsl(0, 77%, 56%, 1);
+  background-color: hsl(0, 77%, 56%, 1);
+  box-shadow: 0 0.3rem 0 hsl(0, 65%, 51%, 1);
+}
+
+.green {
+  border-color: hsl(82, 100%, 44%, 1);
+  background-color: hsl(82, 100%, 44%, 1);
+  box-shadow: 0 0.3rem 0 hsl(85, 89%, 41%, 1);
+}
+
+.yellow {
+  border-color: hsl(46, 100%, 54%, 1);
+  background-color: hsl(46, 100%, 54%, 1);
+  box-shadow: 0 0.3rem 0 hsl(38, 96%, 54%, 1);
+}
+
+.full-width {
+  width: 90%;
+}
